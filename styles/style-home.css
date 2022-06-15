@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* MAIN INDEX */
+
+.main-container {
+  margin: 0 auto;
+  width: 1024px;
+  padding-bottom: 32px;
+
+}
+
+.title {
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+}
+
+.main-container .section {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+
+  border-left: 5px solid #F6C800;
+  padding-left: 5px;
+}
+
+.flex-container {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-image, .subtext-image {
+  font-family: 'Inter', sans-serif;
+  font-size: 38px;
+  color: #FFFFFF;
+  text-align: center;
+
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+}
+
+.subtext-image {
+  font-size: 18px;
+  padding: 15px;
+}
+
+.primeira-imagem, .segunda-imagem, .terceira-imagem, .quarta-imagem, .quinta-imagem, .sexta-imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 500px;
+  transition: 0.4s;
+}
+
+.primeira-imagem {
+  background-image: url(https://cdn.awsli.com.br/1000x1000/1206/1206083/produto/108598469/212e5c7909.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.segunda-imagem {
+  background-image: url(https://media.comicbook.com/2020/08/the-boys-season-2-poster-butcher-karl-urban--1231881.jpeg?auto=webp&width=1200&height=1778&crop=1200:1778,smart);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.terceira-imagem{
+  background-image: url(https://br.web.img3.acsta.net/pictures/18/12/10/14/01/0178829.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.quarta-imagem{
+  background-image: url(https://br.web.img3.acsta.net/r_1280_720/pictures/22/05/19/20/36/3267586.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.quinta-imagem {
+  background-image: url(https://pbs.twimg.com/media/FQUDopwVsAEjmB2?format=jpg&name=medium);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.sexta-imagem {
+  background-image: url(https://i.ibb.co/XYc7MSR/top-gun-maverick-ver5-xlg-2.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.image:hover {
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+  cursor: pointer;
+}
+
+.image:hover p {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image p:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.filmes {
+  margin-top: 32px;
+  transition: width 2s, height 4s;
+}
+

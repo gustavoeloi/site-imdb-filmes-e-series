@@ -1,0 +1,57 @@
+body {
+  background-color: #C4C4C0;;
+}
+
+.page {
+  border-bottom: 2px solid #F6C800;
+  padding: 5px;
+}
+
+.main-container {
+  width: 1024px;
+  margin-bottom: 0;
+  padding: 16px;
+  background-color: white;
+}
+
+.sub-title, .main-title {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+}
+
+.sub-title {
+  margin: 0;
+
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.main-title {
+  margin-top: 8px;
+  font-size: 32px;
+}
+
+table {
+  margin: 0 auto;
+
+  border-collapse: collapse;
+  border-spacing:0 15px;
+}
+
+thead, tbody {
+  font-family: 'Inter', sans-serif;
+}
+
+th {
+  text-align: left;
+}
+
+td, th {
+  padding-left: 60px;
+}
+
+.color {
+  border-collapse: collapse;
+  background: #F6F6F5;
+}
